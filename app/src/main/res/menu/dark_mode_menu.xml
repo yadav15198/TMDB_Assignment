@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item android:id="@+id/day_mode_item"
+     android:icon="@drawable/ic_baseline_toggle_off_24"
+     android:title="Day Mode"
+     app:showAsAction="never"/>
+    <item android:id="@+id/night_mode_item"
+        android:icon="@drawable/ic_baseline_toggle_on_24"
+        android:title="Night Mode"
+        app:showAsAction="never"/>
+</menu>
